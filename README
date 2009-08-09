@@ -1,0 +1,25 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2734
+
+PreviewDialog is written to show a GTK preview dialog with the color or image below the cursor.
+It's very useful to edit css files, but can be used for anything.
+
+For a quick introduction, see this screencast:
+http://blog.taylon.eti.br/files/preview_dialog.ogg
+
+Options:
+   g:PreviewDialogKey:
+     Change shotcurt (Default is 'F8')
+    
+   g:PreviewDialogEnable:
+     Enable PreviewDialog (Default is '1')
+    
+   g:PreviewDialogAuto:
+     Shows the dialog automatically when hold cursor over a word (Default is '1')
+
+   g:PathPyFile:
+     Set the path of .py file (Default is '~/.vim/')
+    
+   g:DialogPosition:
+     Set default window position. Can you use 'center', 'right_top' or 'right_bottom' (Default is 'right_bottom')
+
+Any suggestion, bug report or feature request are welcome.
